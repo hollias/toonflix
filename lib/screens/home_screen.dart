@@ -52,8 +52,8 @@ class HomeScreen extends StatelessWidget {
           return Column(
             children: [
               Container(
-                width: 250,
                 clipBehavior: Clip.hardEdge,
+                width: 250,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
