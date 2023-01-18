@@ -62,7 +62,9 @@ class HomeScreen extends StatelessWidget {
                 ],
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Image.network(webtoon.thumb),
+              child: Image.network(
+                webtoon.thumb,
+              ),
             ),
             const SizedBox(
               height: 10,
