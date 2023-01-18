@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
         foregroundColor: Theme.of(context).appBarTheme.foregroundColor,
         title: const Text(
-          "오늘의 11",
+          "오늘의 111",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
         ),
       ),
