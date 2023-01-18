@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
         foregroundColor: Theme.of(context).appBarTheme.foregroundColor,
         title: const Text(
-          "오늘의 11",
+          "오늘의22 ",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
         ),
       ),
@@ -52,8 +52,8 @@ class HomeScreen extends StatelessWidget {
           return Column(
             children: [
               Container(
-                width: 250,
                 clipBehavior: Clip.hardEdge,
+                width: 250,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
